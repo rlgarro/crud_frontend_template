@@ -1,0 +1,42 @@
+/* MAIN*/
+body {
+    background-color: white;
+    color: #000;
+    font-family: monospace;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.main {
+    height: 100vh;
+}
+
+.navbar {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.navbar li a{
+    text-transform: uppercase;
+    color: chartreuse;
+}
+
+/* FORM */
+.form {
+    font-family: monospace;
+    font-size: 20px;
+    width: 250px;
+}
+
+.form input, button{
+    width: 100%;
+}
+
+.form button {
+    font-size: large;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
